@@ -16,9 +16,9 @@ for (int y=0; y<=20; y++)
  */
 
 int x = 0;
-  int num = 0;
+int num = 0;
 while (x<=10) {
-    print(num+" ");
-    x+=1;
-    num+=2;
-  }
+  print(num+" ");
+  x+=1;
+  num+=2;
+}
