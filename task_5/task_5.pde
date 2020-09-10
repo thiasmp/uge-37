@@ -1,5 +1,5 @@
 void setup() {
-  //MethodOne(); 
+  MethodOne(); 
   MethodTwo(); 
 }
 
@@ -28,7 +28,7 @@ void MethodOne()
 
 void MethodTwo() 
 {
-  int weekDay = 0; // 0 = Monday, 6 = Sunday. 
+  int weekDay = 3; // 0 = Monday, 6 = Sunday. 
   boolean weekend = false;
   
   if (weekDay < 5)
@@ -40,10 +40,13 @@ void MethodTwo()
     weekend = true;
   }
   
-  // Print the name of the weekday here: 
   
+  // Print the name of the weekday here: 
+  println(weekDay);
     
     
   // Print if it is weekend here:
-  
+  if (weekend==true){
+    print("weekend");
+  }
 }
